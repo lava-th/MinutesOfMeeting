@@ -8,13 +8,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-<<<<<<< Updated upstream
+//<<<<<<< Updated upstream
 //import com.example.MoM.dto.MemberDto;zfsatryui
-=======
+//=======
 //import com.example.MoM.dto.MemberDto;
 //import com.example.MoM.dto.MomHeadingDTO;
 //import com.example.MoM.dto.OrganizationDto;
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 import com.example.MoM.entity.MomHeadingEntity;
 import com.example.MoM.entity.OrganizationEntity;
 import com.example.MoM.entity.OrganizationMemberEntity;
