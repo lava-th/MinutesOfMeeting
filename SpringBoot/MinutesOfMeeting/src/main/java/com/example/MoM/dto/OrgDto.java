@@ -11,9 +11,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class LoginDto {
-
-	private String loginId;
-	private String password;
+public class OrgDto {
+	
+	private int id;
+	private String organizationName;
 
 }

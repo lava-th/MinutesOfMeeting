@@ -1,6 +1,4 @@
-package com.example.MoM.dto;
-
-import javax.persistence.Column;
+package com.example.MoM.dto.formDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,16 +11,21 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class OrganizationMemberDto {
+public class RegisterFormDto {
+	
+	private int organizationId;
+	private String organizationName;
+	private String organizationDomain;
+	private String organizationMobileNo;
+	private String organizationAddress;
+	
 
 	private int memberId;
 	private String name;
-	private String organizationName;
 	private String mobileNo;
 	private String role;
 	private String address;
 	private String gender;
-	@Column(unique = true)
 	private String loginId;
 	private String password;
 

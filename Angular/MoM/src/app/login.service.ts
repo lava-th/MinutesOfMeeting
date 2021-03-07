@@ -7,12 +7,13 @@ import { Observable } from 'rxjs';
 })
 export class LoginService {
 
-  constructor(public httpClient:HttpClient) { }
+  user: any;
 
-  /**
-   * loginAsUser
-userCred: any   */
+  constructor(public httpClient:HttpClient) { 
+    this.user = {name: "XYZ"};
+  }
+
   public loginAsUser(userCred: any):Observable<any> {
-    return this.httpClient.post("userWithCredentials",userCred);
+    return this.httpClient.post("/userWithCredentials",userCred)
   }
 }

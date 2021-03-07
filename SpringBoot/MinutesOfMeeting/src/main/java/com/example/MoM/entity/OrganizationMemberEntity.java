@@ -21,8 +21,8 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
-@Entity(name = "memeber")
+@ToString(exclude = {"organizationEntity","facilitatedMeetings","attendedMeetings"})
+@Entity(name = "member")
 public class OrganizationMemberEntity {
 
 	@Id
